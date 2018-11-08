@@ -153,7 +153,7 @@
     #define BRD_LCD_E_PIN       PORT_Pin_2
 
     // Initialization
-    #define BRD_LCD_CLOCK     (RST_CLK_PCLK_PORTE | RST_CLK_PCLK_PORTC)
+    #define BRD_LCD_CLOCK     (RST_CLK_PCLK_PORTA | RST_CLK_PCLK_PORTC | RST_CLK_PCLK_PORTE)
 
     #define BRD_LCD_IN_PORT         MDR_PORTA
     #define BRD_LCD_IN_PINS        (PORT_Pin_0 | PORT_Pin_1 | PORT_Pin_2 | PORT_Pin_3 | PORT_Pin_4 | PORT_Pin_5| PORT_Pin_6| PORT_Pin_7) 
